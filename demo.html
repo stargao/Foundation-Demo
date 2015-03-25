@@ -1,0 +1,327 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dianlike Foundation Demo</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+  <div class="off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
+
+
+
+      <!-- Off Canvas Menu -->
+      <aside class="left-off-canvas-menu">
+        <!-- whatever you want goes here -->
+        <ul class="off-canvas-list">
+          <li><label>超市管理</label></li>
+          <li><a href="#">店铺管理</a></li>
+          <li><a href="#">设置Logo</a></li>
+          <li><a href="#">设置个性域名</a></li>
+          <li><a href="#">代金券管理</a></li>
+          <li><a href="#">配送管理</a></li>
+          <li><a href="#">优惠券管理</a></li>
+          <li><a href="#">公告管理</a></li>
+        </ul>
+        <ul class="off-canvas-list">
+          <li><label>商品管理</label></li>
+          <li><a href="#">商品批量上架</a></li>
+          <li><a href="#">单品录入</a></li>
+          <li><a href="#">商品刷新</a></li>
+          <li><a href="#">未上架商品列表</a></li>
+          <li><a href="#">已上架在售商品列表</a></li>
+          <li><a href="#">已下架停售商品列表</a></li>
+        </ul>
+        <ul class="off-canvas-list">
+          <li><label>订单管理</label></li>
+          <li><a href="#">所有订单</a></li>
+          <li><a href="#">新订单</a></li>
+          <li><a href="#">配送中订单</a></li>
+          <li><a href="#">已完成订单</a></li>
+        </ul>
+      </aside>
+
+      <!-- main content goes here -->
+      <div class="contain-to-grid sticky">
+        <nav class="top-bar hide-for-small" data-topbar data-options="sticky_on: large">
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="#">店里客卖家管理系统</a></h1>
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar"><a href="#"><span>菜单</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li><a href="#">欢迎您，红旗连锁华东北大街60号</a></li>
+              <li><a href="#">注销</a></li>
+            </ul>
+          </section>
+        </nav>
+
+        <nav class="tab-bar show-for-small" data-topbar>
+          <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+      </section>
+
+          <section class="middle tab-bar-section">
+            <h1 class="title">店里客卖家管理系统</h1>
+          </section>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="large-3 columns">
+          <div class="hide-for-small">
+            <div class="sider">
+              <dl class="accordion" data-accordion>
+                <dd>
+                  <a href="#panel1">超市管理</a>
+                  <div id="panel1" class="content active">
+                    <div class="tabs-content">
+                      <ul class="side-nav">
+                        <li><a href="#">店铺管理</a></li>
+                        <li><a href="#">设置Logo</a></li>
+                        <li><a href="#">设置个性域名</a></li>
+                        <li><a href="#">代金券管理</a></li>
+                        <li><a href="#">配送管理</a></li>
+                        <li><a href="#">优惠券管理</a></li>
+                        <li><a href="#">公告管理</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </dd>
+                <dd>
+                  <a href="#panel2">商品管理</a>
+                  <div id="panel2" class="content">
+                    <ul class="side-nav">
+                      <li><a href="#">商品批量上架</a></li>
+                      <li><a href="#">单品录入</a></li>
+                      <li><a href="#">商品刷新</a></li>
+                      <li><a href="#">未上架商品列表</a></li>
+                      <li><a href="#">已上架在售商品列表</a></li>
+                      <li><a href="#">已下架停售商品列表</a></li>
+                    </ul>
+                  </div>
+                </dd>
+                <dd>
+                  <a href="#panel3">订单管理</a>
+                  <div id="panel3" class="content">
+                    <ul class="side-nav">
+                      <li><a href="#">所有订单</a></li>
+                      <li><a href="#">新订单</a></li>
+                      <li><a href="#">配送中订单</a></li>
+                      <li><a href="#">已完成订单</a></li>
+                    </ul>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+
+        <div class="large-9 columns">
+          <h2>店铺管理</h2>
+          <fieldset>
+            <legend>基本信息</legend>
+            <div class="row">
+              <div class="small-10">
+                <div class="row">
+                  <div class="small-4 columns">
+                    <label for="right-label" class="right inline">名称</label>
+                  </div>
+                  <div class="small-8 columns">
+                    <input type="text" id="right-label" placeholder="Inline Text Input">
+                    <!-- <small class="error">error message.</small> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="small-10">
+                <div class="row">
+                  <div class="small-4 columns">
+                    <label for="right-label" class="right inline">详细信息</label>
+                  </div>
+                  <div class="small-8 columns">
+                    <input type="text" id="right-label" placeholder="Inline Text Input">
+                    <!-- <small class="error">error message.</small> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>营业执照</legend>
+            <div class="row">
+              <div class="small-10">
+                <div class="row">
+                  <div class="small-4 columns">
+                    <label for="right-label" class="right inline">编号</label>
+                  </div>
+                  <div class="small-8 columns">
+                    <input type="text" id="right-label" placeholder="Inline Text Input">
+                    <!-- <small class="error">error message.</small> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>地址</legend>
+            <div class="row">
+              <div class="small-10">
+                <div class="row">
+                  <div class="small-4 columns">
+                    <label for="right-label" class="right inline">区县</label>
+                  </div>
+                  <div class="small-8 columns">
+                    <input type="text" id="right-label" placeholder="Inline Text Input">
+                  </div>
+                </div>
+              </div>
+              <div class="small-10">
+                <div class="row">
+                  <div class="small-4 columns">
+                    <label for="right-label" class="right inline">地址</label>
+                  </div>
+                  <div class="small-8 columns">
+                    <input type="text" id="right-label" placeholder="Inline Text Input">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>店长</legend>
+            <div class="row">
+              <div class="small-10">
+                <div class="row">
+                  <div class="small-4 columns">
+                    <label for="right-label" class="right inline">姓名</label>
+                  </div>
+                  <div class="small-8 columns">
+                    <input type="text" id="right-label" placeholder="Inline Text Input">
+                  </div>
+                </div>
+              </div>
+              <div class="small-10">
+                <div class="row">
+                  <div class="small-4 columns">
+                    <label for="right-label" class="right inline">身份号码</label>
+                  </div>
+                  <div class="small-8 columns">
+                    <input type="text" id="right-label" placeholder="Inline Text Input">
+                  </div>
+                </div>
+              </div>
+              <div class="small-10">
+                <div class="row">
+                  <div class="small-4 columns">
+                    <label for="right-label" class="right inline">电话号码</label>
+                  </div>
+                  <div class="small-8 columns">
+                    <input type="text" id="right-label" placeholder="Inline Text Input">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>营业时间</legend>
+            <div class="row">
+              <div class="small-10">
+                <div class="row">
+                  <div class="small-4 columns">
+                    <label for="right-label" class="right inline">工作日</label>
+                  </div>
+                  <div class="small-8 columns">
+                    <div class="row">
+                      <div class="small-6 columns">
+                        <select>
+                          <option value="9:00">9:00</option>
+                          <option value="10:00">10:00</option>
+                          <option value="11:00">11:00</option>
+                          <option value="12:00">12:00</option>
+                        </select>
+                      </div>
+                      <div class="small-6 columns">
+                        <select>
+                          <option value="9:00">9:00</option>
+                          <option value="10:00">10:00</option>
+                          <option value="11:00">11:00</option>
+                          <option value="12:00">12:00</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="small-10">
+                <div class="row">
+                  <div class="small-4 columns">
+                    <label for="right-label" class="right inline">非工作日</label>
+                  </div>
+                  <div class="small-8 columns">
+                    <div class="row">
+                      <div class="small-6 columns">
+                        <select>
+                          <option value="9:00">9:00</option>
+                          <option value="10:00">10:00</option>
+                          <option value="11:00">11:00</option>
+                          <option value="12:00">12:00</option>
+                        </select>
+                      </div>
+                      <div class="small-6 columns">
+                        <select>
+                          <option value="9:00">9:00</option>
+                          <option value="10:00">10:00</option>
+                          <option value="11:00">11:00</option>
+                          <option value="12:00">12:00</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="row">
+            <div class="small-10">
+              <div class="row">
+                <div class="small-4 columns"></div>
+                <div class="small-8 columns">
+                  <a href="#" class="small button">保 存</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- close the off-canvas menu -->
+      <a class="exit-off-canvas"></a>
+
+    </div>
+  </div>
+
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+  $(document).foundation();
+  </script>
+</body>
+</html>
